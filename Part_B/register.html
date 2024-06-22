@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>יצירת חשבון - Rate Your Lecturer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="register-styles.css">
+    <script defer src="login-scripts.js"></script>
+    <script src="register-form.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">עמוד הבית</a></li>
+                <li><a href="login.html">התחברות</a></li>
+                <li><a href="profile.html">פרופיל משתמש</a></li>
+                <li><a href="forum.html">פורום דיונים</a></li>
+                <li><a href="events.html">אירועים וחדשות</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="register-container">
+            <div class="register-header">
+                <img src="images/LOGO.png" alt="Logo" class="logo">
+                <h1>יצירת חשבון חדש</h1>
+            </div>
+            <div class="register-buttons">
+                <button id="google-signup" class="social-login google">Sign up with Google</button>
+                <button id="facebook-signup" class="social-login facebook">Sign up with Facebook</button>
+            </div>
+            <div class="register-divider">
+                <span>או</span>
+            </div>
+            <form id="registrationForm" class="register-form">
+                <div class="msg"></div>
+                <label for="username">שם משתמש:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="email">דואר אלקטרוני:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">סיסמא:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="confirmPassword">אימות סיסמא:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <button type="submit">צור חשבון</button>
+            </form>
+            <p>כבר יש לך חשבון? <a href="login.html">כניסה למערכת</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Rate Your Lecturer - RYL. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>

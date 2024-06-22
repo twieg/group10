@@ -1,0 +1,98 @@
+/* עיצוב עמוד אירועים וחדשות */
+body {
+    background: url('images/forum background.jpg') no-repeat center center fixed;
+    background-size: cover; /* ממלא את כל העמוד בתמונה */
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* צל לכותרת */
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.events {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.events h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+thead th {
+    background-color: #5C6AE6;
+    color: white;
+    padding: 1em;
+    text-align: right;
+}
+
+tbody td {
+    padding: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+tbody td a {
+    color: #5C6AE6;
+    text-decoration: none;
+}
+
+tbody td a:hover {
+    text-decoration: underline;
+}
+
+.institutions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.institution {
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+.institution img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+.institution p {
+    margin: 0;
+    font-size: 1.1em;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>התחברות - Rate Your Lecturer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login-styles.css">
+    <script defer src="login-scripts.js"></script>
+    <script defer src="login-form.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">עמוד הבית</a></li>
+                <li><a href="register.html">יצירת חשבון</a></li>
+                <li><a href="profile.html">פרופיל משתמש</a></li>
+                <li><a href="forum.html">פורום דיונים</a></li>
+                <li><a href="events.html">אירועים וחדשות</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <div class="login-header">
+                <img src="images/LOGO.png" alt="Logo" class="logo">
+                <h1>כניסה למערכת</h1>
+            </div>
+            <div class="login-buttons">
+                <button id="google-login" class="social-login google">Login with Google</button>
+                <button id="facebook-login" class="social-login facebook">Login with Facebook</button>
+            </div>
+            <div class="login-divider">
+                <span>או</span>
+            </div>
+            <form class="login-form form">
+                <div class="msg"></div>
+                <label for="email">דואר אלקטרוני:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">סיסמא:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">כניסה</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Rate Your Lecturer - RYL. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>

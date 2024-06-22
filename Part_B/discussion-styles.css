@@ -1,0 +1,172 @@
+/* עיצוב עמוד דיון */
+body {
+    background: url('images/forum background.jpg') no-repeat center center fixed;
+    background-size: cover; /* ממלא את כל העמוד בתמונה */
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-button-container {
+    width: 100%;
+    text-align: right;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: white;
+    color: #5C6AE6;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #5C6AE6;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease; /* אנימציה */
+}
+
+.back-button:hover {
+    background-color: #5C6AE6; /* צבע רקע בעת ריחוף */
+    color: white; /* צבע טקסט בעת ריחוף */
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.question-container {
+    background-color: #E6E6FA; /* צבע רקע בהיר לשאלה */
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 2em;
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.question-author {
+    font-weight: bold;
+}
+
+.question-date {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.question-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.question-text {
+    font-size: 1em;
+    color: #333;
+}
+
+.discussion-container {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.comment {
+    background-color: #F5F5F5;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1em;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.comment-author {
+    font-weight: bold;
+}
+
+.comment-date {
+    font-size: 0.9em;
+    color: #999;
+}
+
+.comment-text {
+    font-size: 1em;
+    color: #333;
+}
+
+.new-comment-container {
+    background-color: #FFFFFF;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 2em;
+}
+
+.new-comment-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+#new-comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#new-comment-form label {
+    text-align: right;
+}
+
+#new-comment-form input,
+#new-comment-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#new-comment-form button {
+    padding: 0.5em 1em;
+    background-color: #5C6AE6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#new-comment-form button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}

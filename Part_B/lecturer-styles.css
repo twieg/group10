@@ -1,0 +1,203 @@
+/* עיצוב עמוד פרטי מרצה */
+body {
+    background-color: #86C0F2;
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lecturer-profile {
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    margin-bottom: 1em;
+    background-color: rgba(255, 255, 255); /* רקע לבן */
+    padding: 0.5em 2em;
+    border-radius: 10px;
+}
+
+.lecturer-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lecturer-info {
+    text-align: right;
+}
+
+.lecturer-info h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.lecturer-info p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+    color: #333;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.rating-number {
+    font-size: 3em;
+    color: #333;
+    margin-right: 0.5em;
+}
+
+.stars img {
+    width: 20px; /* גודל הכוכבים */
+    height: auto;
+    margin-right: 0.1em;
+}
+
+.rating-count {
+    font-size: 1em;
+    color: #666;
+    margin-left: 0.5em;
+}
+
+.follow-button {
+    background-color: #1C5E9C;
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1em;
+}
+
+.follow-button:hover {
+    background-color: #4A56B4;
+}
+
+.comments-section {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.comments-section h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.comment-author {
+    font-weight: bold;
+    flex: 1;
+}
+
+.comment-date {
+    font-size: 0.9em;
+    color: #999;
+    text-align: left;
+    flex: 1;
+    text-align: center;
+}
+
+.comment-rating img {
+    width: 20px; /* גודל הכוכבים בתגובות */
+    height: auto;
+    margin-right: 0.1em;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.add-rating {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.add-rating h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.add-rating .rating-input {
+    display: flex;
+    justify-content: flex-start;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.add-rating .rating-input img {
+    width: 20px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.add-rating .rating-input img:hover,
+.add-rating .rating-input img.hover,
+.add-rating .rating-input img.active {
+    transform: scale(1.4);
+}
+
+.add-rating input[type="text"],
+.add-rating textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.add-rating button {
+    padding: 0.5em 1em;
+    background-color: #1C5E9C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin-top: 1em;
+}
+
+.add-rating button:hover {
+    background-color: #4A56B4;
+}

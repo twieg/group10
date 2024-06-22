@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פורום דיונים - Rate Your Lecturer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="forum-styles.css">
+    <script src="forum-scripts.js" defer></script><!-- חיבור לקובץ JS מאוחד -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="center">
+                <li><a href="Homepage.html">עמוד הבית</a></li>
+                <li><a href="login.html">התחברות</a></li>
+                <li><a href="register.html">יצירת חשבון</a></li>
+                <li><a href="profile.html">פרופיל משתמש</a></li>
+                <li><a href="events.html">אירועים וחדשות</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>פורום דיונים</h1>
+        <div class="forum-container">
+            <div class="forum">
+                <h2>שאלות לדיון</h2>
+                <ul class="forum-list" id="forum-list">
+                    <li>
+                        <div class="topic">
+                            <div class="topic-header">
+                                <a href="discussion.html">מה דעתכם על קורס גירוש שדים באוניברסיטת בן גוריון?</a>
+                                <div class="topic-stats">
+                                    <span>5 תגובות</span> | <span>735 צפיות</span>
+                                </div>
+                            </div>
+                            <div class="topic-footer">
+                                <span>נכתב על ידי Amir Olizkey</span> | <span>19.10.2022, 00:26</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="topic">
+                            <div class="topic-header">
+                                <a href="#">אשמח לטיפים ללמידה למבחן</a>
+                                <div class="topic-stats">
+                                    <span>0 תגובות</span> | <span>399 צפיות</span>
+                                </div>
+                            </div>
+                            <div class="topic-footer">
+                                <span>נכתב על ידי Itai Avrahami</span> | <span>28.02.2024, 16:07</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="topic">
+                            <div class="topic-header">
+                                <a href="#">מתלבט אם לקחת קורס בחירה בתעשיה וניהול למרות שאני שנה שניה</a>
+                                <div class="topic-stats">
+                                    <span>0 תגובות</span> | <span>490 צפיות</span>
+                                </div>
+                            </div>
+                            <div class="topic-footer">
+                                <span>נכתב על ידי Moshiko Mor </span> | <span>15.12.2023, 15:45</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="forum-info">
+                <h2>הסבר על הפורום</h2>
+                <p>ברוכים הבאים לפורום הדיונים שלנו! כאן תוכלו לדון על מוסדות לימוד, טיפים ללמידה ושאלות כלליות על הלימודים</p>
+                <p>דיונים על הלימודים מתקבלים בברכה! תוכלו להתעדכן ולמצוא מענה לכל דבר ועניין!</p>
+            </div>
+        </div>
+         <div class="new-comment-container">
+            <h2>הוסף שאלה חדשה</h2>
+            <form id="new-comment-form">
+                <label for="author">שם:</label>
+                <input type="text" id="author" name="author" required>
+                <label for="comment">שאלה:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <button type="submit">הוסף שאלה</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Rate Your Lecturer - RYL. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>

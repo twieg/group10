@@ -1,0 +1,54 @@
+/* עיצוב עמוד קורס */
+body {
+    background-color: #86C0F2;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: right;
+}
+
+.course-header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+    text-align: right;
+}
+
+.course-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-details {
+    flex: 1;
+}
+
+.course-details h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    text-align: right;
+}
+
+ul {
+    text-align: right;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}

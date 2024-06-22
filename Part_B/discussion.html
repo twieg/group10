@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דיון על קורסים - Rate Your Lecturer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="discussion-styles.css">
+    <script src="forum-scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="center">
+                <li><a href="Homepage.html">עמוד הבית</a></li>
+                <li><a href="login.html">התחברות</a></li>
+                <li><a href="register.html">יצירת חשבון</a></li>
+                <li><a href="profile.html">פרופיל משתמש</a></li>
+                <li><a href="events.html">אירועים וחדשות</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="back-button-container">
+            <a href="forum.html" class="back-button">חזרה לפורום דיונים</a>
+        </div>
+        <h1 id="discussion-title">דיון</h1>
+        <div class="question-container">
+            <div class="question-header">
+                <span class="question-author">Amir Olizkey</span>
+                <span class="question-date">19.10.2022, 00:26</span>
+            </div>
+            <p class="question-title">מה דעתכם על קורס גירוש שדים באוניברסיטת בן גוריון?</p>
+            <p class="question-text">היי, אני רוצה להרשם לקורס כללי מעניין, עדיפות על בלי מבחן. קראתי על קורס גירוש שדים, מה דעתכם?</p>
+        </div>
+        <div class="discussion-container">
+            <ul class="comment-list" id="comment-list">
+                <li class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">Neta Lahav</span>
+                        <span class="comment-date">06.12.2023, 12:42</span>
+                    </div>
+                    <p class="comment-text">קורס חדו"א 2 באוניברסיטת תל אביב היה מאוד קשה.. ראיתי את סילבוס הקורס בטכניון וממליצה לכם לעשות אותו דרכם אם אתם יכולים.</p>
+                </li>
+                <li class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">Yair David</span>
+                        <span class="comment-date">, 16.01.2024, 09:03</span>
+                    </div>
+                    <p class="comment-text">המלצה חמה על קורס גירוש שדים באוניברסיטה הפתוחה!! מעניין, מפתיע ומלמד הרבה דברים חדשים, קחו אותו ולא תצטערו</p>
+                </li>
+                <li class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">Alon Adika</span>
+                        <span class="comment-date">28.02.2024, 16:07</span>
+                    </div>
+                    <p class="comment-text">ממליץ לקחת קורס אסטרטגיה לפני בחינות של אוניברסית בן גוירון בניצוחו של פרופסור סנייפ. קיבלתי הרבה טיפים ללמידה שהועילו לי מאוד.</p>
+                </li>
+                <li class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">Shay Twieg</span>
+                        <span class="comment-date">15.05.2024, 15:45</span>
+                    </div>
+                    <p class="comment-text">ביקורת על קורס ריפוי בכשפים בהוגוורטס. החומר מתקדם מהר ואין מקום לשאלות, מבחן קשה מאוד וממוצע נמוך. לא מומלץ אם אפשר שלא לקחת.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="new-comment-container">
+            <h2>הוסף תגובה חדשה</h2>
+            <form id="new-comment-form">
+                <label for="author">שם:</label>
+                <input type="text" id="author" name="author" required>
+                <label for="comment">תגובה:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <button type="submit">הוסף תגובה</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Rate Your Lecturer - RYL. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>

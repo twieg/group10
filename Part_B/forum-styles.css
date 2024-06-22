@@ -1,0 +1,156 @@
+/* עיצוב עמוד פורום דיונים */
+body {
+    background: url('images/forum background.jpg') no-repeat center center fixed;
+    background-size: cover; /* ממלא את כל העמוד בתמונה */
+}
+
+main {
+    flex: 1;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.forum-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.forum {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 65%;
+}
+
+.forum-info {
+    background-color: white;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.forum h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #333;
+    text-align: right;
+}
+
+.forum-info h2{
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.forum-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.forum-list li {
+    margin-bottom: 1em;
+}
+
+.topic {
+    background-color: #F5F5F5;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.topic-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.topic-header a {
+    font-size: 1.2em;
+    color: #5C6AE6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.topic-header a:hover {
+    color: #333;
+}
+
+.topic-stats {
+    font-size: 0.9em;
+    color: #666;
+}
+.new-comment-container {
+    background-color: #FFFFFF;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 2em;
+}
+
+.new-comment-container h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+#new-comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#new-comment-form label {
+    text-align: right;
+}
+
+#new-comment-form input,
+#new-comment-form textarea {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#new-comment-form button {
+    padding: 0.5em 1em;
+    background-color: #5C6AE6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#new-comment-form button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+.topic-footer {
+    font-size: 0.9em;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+}

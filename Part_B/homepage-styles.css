@@ -1,0 +1,87 @@
+/* עיצוב עמוד הבית */
+body {
+    background-color: #86C0F2;
+}
+
+header nav { /*שונה מכל השאר כי הכפתורים לא באמצע*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul.right {
+    justify-content: flex-start; /*מיקום הכפתורים של התחבר והירשם*/
+}
+
+main {
+    padding: 2em;
+}
+
+.logo {
+    width: 200px;
+    margin-bottom: 1em;
+}
+
+.search-container {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container input[type="text"] {
+    padding: 0.5em;
+    width: 50%;
+    max-width: 400px;
+    font-size: 1.2em;
+    border: 2px solid #5C6AE6;
+    border-radius: 25px 0 0 25px; /* עיגול הפינות של הקצה השמאלי */
+    text-align: center;
+    outline: none;
+}
+
+.search-container button {
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    border: 2px solid #5C6AE6;
+    border-left: none; /* ללא גבול שמאלי כדי להיצמד לשורת החיפוש */
+    background-color: #1C5E9C;
+    color: white;
+    border-radius: 0 25px 25px 0; /* עיגול הפינות של הקצה הימני */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #4A56B4; /* שינוי צבע בעת ריחוף מעל הכפתור*/
+    transform: scale(1.05);
+}
+
+.institutions {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.institution {
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    width: 200px;
+    text-align: center;
+}
+
+.institution img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+.institution p {
+    margin: 0;
+    font-size: 1.1em;
+}
+

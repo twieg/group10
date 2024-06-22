@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פרטי מרצה - Rate Your Lecturer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="lecturer-styles.css">
+    <script src="rating-scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Homepage.html">עמוד הבית</a></li>
+                <li><a href="login.html">התחברות</a></li>
+                <li><a href="register.html">יצירת חשבון</a></li>
+                <li><a href="profile.html">פרופיל משתמש</a></li>
+                <li><a href="forum.html">פורום דיונים</a></li>
+                <li><a href="events.html">אירועים וחדשות</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="lecturer-profile">
+            <img src="images/snape.jpeg" alt="תמונת מרצה" class="lecturer-photo">
+            <div class="lecturer-info">
+                <h1>פרופסור סנייפ</h1>
+                <p>שנות לימוד: 19 שנים</p>
+                <p>מוסדות: הוגוורטס</p>
+                <p>תארים: דוקטור לשיקויים אפלים, אומנות הלחישה</p>
+                <p>תחומי עניין: שיקויים, אמנות האופל, הגנה מפני כוחות האופל</p>
+                <div class="star-rating">
+                    <span class="rating-number">4.5</span>
+                    <div class="stars">
+                        <img src="images/full-star.png">
+                        <img src="images/full-star.png">
+                        <img src="images/full-star.png">
+                        <img src="images/full-star.png">
+                        <img src="images/half-star.png">
+                    </div>
+                    <span class="rating-count">231 דירוגים</span>
+                </div>
+                <button type="button" class="follow-button">עקוב אחרי מרצה זה</button>
+            </div>
+        </div>
+        <div class="comments-section">
+            <h3>דירוגים ותגובות</h3>
+            <ul id="comment-list">
+                <li class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">הרמיוני גריינג'ר</span>
+                        <span class="comment-date">25.05.2024, 10:17:45</span>
+                        <span class="comment-rating">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                        </span>
+                    </div>
+                    <p>בהתחלה חשבתי שסנייפ קצת קשה, אבל עם הזמן הבנתי עד כמה הוא מרצה מקצועי ומסור. תמיד מוכן לעזור ולענות על שאלות, וזה מה שעושה אותו כל כך טוב.</p>
+                </li>
+                <li class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">רון וויזלי</span>
+                        <span class="comment-date">28.02.2024, 16:07:07</span>
+                        <span class="comment-rating">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/half-star.png">
+                        </span>
+                    </div>
+                    <p>סנייפ מרצה מצוין, אבל יכול להיות קשוח לפעמים. בסך הכל, למדתי ממנו המון והוא מורה נהדר.</p>
+                </li>
+                <li class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">נוויל לונגבוטום</span>
+                        <span class="comment-date">15.12.2023, 15:45:10</span>
+                        <span class="comment-rating">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/full-star.png">
+                            <img src="images/empty-star.png">
+                        </span>
+                    </div>
+                    <p>למדתי הרבה מסנייפ, למרות שהייתי קצת מפוחד בהתחלה. הוא יודע ללמד טוב ויש לו המון ידע.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="add-rating">
+            <h3>הוסף דירוג ותגובה</h3>
+            <div class="rating-input">
+                <img src="images/full-star.png" data-value="1">
+                <img src="images/full-star.png" data-value="2">
+                <img src="images/full-star.png" data-value="3">
+                <img src="images/full-star.png" data-value="4">
+                <img src="images/full-star.png" data-value="5">
+            </div>
+            <form id="new-comment-form">
+                <label for="author">שם:</label>
+                <input type="text" id="author" name="author" required>
+                <label for="comment">תגובה:</label>
+                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <button type="submit">הוסף</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Rate Your Lecturer - RYL. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>

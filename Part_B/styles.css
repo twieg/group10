@@ -1,0 +1,59 @@
+/* עיצוב כללי */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    text-align: center;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header { /*פס קישורים*/
+    background-color: #F0F0F2;
+    padding: 1em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-right: 1em;
+}
+
+header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #FFFFFF; /* אנימציה- שינוי צבע בעת ריחוף ללבן */
+    transform: scale(1.1);
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5em;
+    background-color: #F0F0F2;
+    width: 100%;
+    font-size: 0.9em;
+    margin-top: auto; /* מוודא שהפוטר יישב בתחתית הדף */
+}
