@@ -50,7 +50,7 @@ This web application, "Rate Your Lecturer - RYL," is designed for college and un
 
 ### Home Page:
 The home page of the site where you can login, register, and view lecturers or courses pages by searching for them in the appropriate place.
-![Home Page (Visitor)](C:\Users\shayt\OneDrive\שולחן העבודה\תואר\WEB\screenshots\homepage.png)
+![Home Page (Visitor)](./static/media/screenshots/homePageVisiter.png "Home Page (Visitor)")
 
 ### Register Page:
 For new users to sign up.
