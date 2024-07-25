@@ -50,43 +50,41 @@ This web application, "Rate Your Lecturer - RYL," is designed for college and un
 
 ### Home Page:
 The home page of the site where you can login, register, and view lecturers or courses pages by searching for them in the appropriate place.
-![Home Page (Visitor)](./static/media/screenshots/homePageVisiter.png "Home Page (Visitor)")
 ![image](https://github.com/user-attachments/assets/4e86ad12-fe2a-4893-b3a9-bd8c71e2e995)
-
 
 ### Register Page:
 For new users to sign up.
-![Register Page](./static/media/screenshots/register.png "Register Page")
+![image](https://github.com/user-attachments/assets/a2de4963-4c58-4353-8c0d-24478a2add43)
 
 ### Login Page:
 For existing users to sign in.
-![Login Page](./static/media/screenshots/login.png "Login Page")
+![image](https://github.com/user-attachments/assets/41a70f22-4c42-40c4-aeaa-cc72eb927558)
 
 ### Home Page with Logout Feature:
 Allows users to disconnect and return to the home page.
-![Home Page (User)](./static/media/screenshots/homePageUser.png "Home Page (User)")
+![image](https://github.com/user-attachments/assets/e957b129-2646-4aff-8af7-be1c328903fe)
 
 ### User Information Page (example):
 Here the user will be able to see his details and update them when necessary.
-![Profile Page](./static/media/screenshots/profile.png "Profile Page")
+![image](https://github.com/user-attachments/assets/86996cfc-b662-400b-b995-61934d41fd26)
 
 ### Course Page (example):
 You can view the details of the course, its description, academic field, and lecturers who teach it at which university.
-![Course Page](./static/media/screenshots/course.png "Course Page")
+![image](https://github.com/user-attachments/assets/da78262f-e22a-4070-b7a2-558c7b58e5f3)
 
 ### Lecturer Page (example):
 You can view the lecturer's details, his rating, and write a new comment if you are a registered user.
-![Lecturer Page](./static/media/screenshots/lecturer.png "Lecturer Page")
+![image](https://github.com/user-attachments/assets/abce8cda-1189-485b-98a3-6b51fb686718)
 
 ### Forum Page:
 You can view all the discussions and also add a new discussion if you are a registered user.
-![Forum Page](./static/media/screenshots/forum.png "Forum Page")
+![image](https://github.com/user-attachments/assets/764bb8cc-a9dd-44ad-b7d1-d430f24037ef)
 
 ### Discussion Page (example):
 You will be able to enter the discussion, see the comments on it, and comment a new comment if you are a registered user.
-![Discussion Page](./static/media/screenshots/discussion.jpg "Discussion Page")
+![image](https://github.com/user-attachments/assets/8e727fcb-5b7e-46a7-9887-a77005c26a28)
 
 ### Events and News Page:
 You will be able to watch a variety of events held at the various universities.
-![Events Page](./static/media/screenshots/events.png "Events Page")
+![image](https://github.com/user-attachments/assets/11425fd5-6f13-4834-a11a-6bb3dffd5ab2)
 
