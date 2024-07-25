@@ -11,35 +11,35 @@ This web application, "Rate Your Lecturer - RYL," is designed for college and un
 2. From the home page you can enter the pages of relevant lecturers or courses and look at the websites of recognized universities.
 
 ### Register
-3. Click on the '׳”׳™׳¨׳©׳' button to register as a new user.
+3. Click on the 'הירשם' button to register as a new user.
 4. Fill out the registration form with your personal details.
 5. Submit the form to create your new account.
 
 ### Logging In
-6. If you are an existing user, click the '׳”׳×׳—׳‘׳¨' button.
+6. If you are an existing user, click the 'התחבר' button.
 7. Enter your login credentials (Email and password).
 8. Click on '׳›׳ ׳™׳¡׳”' to access your account.
 
 ### Searching for Lecture or Course
 9. Once logged in, navigate to the home page via the navigation bar.
 10. Use the search button to find lectures or courses that fit your list.
-11. Examples of lecturers in DB (you can search it): ׳¡׳ ׳™׳™׳₪, ׳׳™׳›׳ ׳›׳”׳, ׳©׳¨׳™׳× ׳׳–׳•׳׳׳™, ׳—׳™׳™׳ ׳׳•׳™
-12. Examples of courses in DB (you can search it): ׳¨׳™׳₪׳•׳™ ׳‘׳›׳©׳₪׳™׳ ׳•׳©׳™׳§׳•׳™׳™׳ ׳¨׳₪׳•׳׳™׳™׳, ׳₪׳™׳׳•׳¡׳•׳₪׳™׳” ׳©׳ ׳”׳׳•׳¡׳¨, ׳׳‘׳˜׳—׳× ׳׳™׳“׳¢ ׳•׳¡׳™׳™׳‘׳¨, ׳׳‘׳•׳ ׳׳‘׳™׳ ׳” ׳׳׳׳›׳•׳×׳™׳×
+11.	Examples of lecturers in DB (you can search it): סנייפ, מיכל כהן, שרית אזולאי, חיים לוי
+12.	Examples of courses in DB (you can search it): ריפוי בכשפים ושיקויים רפואיים, פילוסופיה של המוסר, אבטחת מידע וסייבר, מבוא לבינה מלאכותית
 
 ### Viewing and Rating Lectures
 13. You can rate the lecture based on your experience.
 
 ### Participation in Discussions 
-14. Navigate to the '׳₪׳•׳¨׳•׳ ׳“׳™׳•׳ ׳™׳' page by the navigator.
+14. Navigate to the 'פורום דיונים' page by the navigator.
 15. You can view all discussions and write a new discussion in the appropriate place.
 16. If you want to write a comment to an existing discussion, click on the discussion and you can view the comments and write a new comment on this discussion.
 
 ### Viewing Events at Various Universities 
-17. Navigate to the '׳׳™׳¨׳•׳¢׳™׳ ׳•׳—׳“׳©׳•׳×' page by the navigator.
+17. Navigate to the 'אירועים וחדשות' page by the navigator.
 18. You will be able to watch the events that are held at different universities, see what dates they are and enter the link to the event website.
 
 ### Updating Personal Details
-19. To update your personal details, navigate to '׳₪׳¨׳•׳₪׳™׳ ׳׳©׳×׳׳©' via the navigation bar.
+19. To update your personal details, navigate to 'פרופיל משתמש' via the navigation bar.
 20. You can edit your details here.
 
 ### Logging Out
