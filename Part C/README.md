@@ -54,6 +54,7 @@ The home page of the site where you can login, register, and view lecturers or c
 
 ### Register Page:
 For new users to sign up.
+
 ![image](https://github.com/user-attachments/assets/a2de4963-4c58-4353-8c0d-24478a2add43)
 
 ### Login Page:
