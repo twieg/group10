@@ -18,7 +18,7 @@ This web application, "Rate Your Lecturer - RYL," is designed for college and un
 ### Logging In
 6. If you are an existing user, click the 'התחבר' button.
 7. Enter your login credentials (Email and password).
-8. Click on '׳›׳ ׳™׳¡׳”' to access your account.
+8. Click on 'כניסה' to access your account.
 
 ### Searching for Lecture or Course
 9. Once logged in, navigate to the home page via the navigation bar.
